@@ -102,5 +102,5 @@ FIFO created
 localhost:~# ls -l /tmp/my_fifo
 prwxr-xr-x    1 root     root             0 Sep 13 11:31 /tmp/my_fifo
 ```
-#RESULT:
+## RESULT:
 The program is executed successfully.
