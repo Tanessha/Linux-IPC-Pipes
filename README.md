@@ -67,8 +67,9 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
-
-OUTPUT
+```
+## OUTPUT
+```
 cat> hello.txt
 Hello world
 Operating systems
@@ -81,8 +82,9 @@ THE RESULTS OF CLIENTS ARE ......
 Hello world
 Operating systems
 to check pipe
-
-C Program that illustrate communication between two process using named pipes using Linux API system calls
+```
+### C Program that illustrate communication between two process using named pipes using Linux API system calls
+```
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
